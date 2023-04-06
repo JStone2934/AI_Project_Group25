@@ -1,3 +1,7 @@
+此部分用于训练Lora模型
+项目来源于
+https://github.com/Akegarasu/lora-scripts.git
+
 # LoRA-scripts
 
 LoRA training scripts for [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts.git)
