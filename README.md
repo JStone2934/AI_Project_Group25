@@ -64,3 +64,5 @@ Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
 
 4.训练集路径应指定为放图片的文件夹所在的文件夹，且放图片的文件夹命名应该遵循一定规则。例如15张以上的图像所在的文件夹前缀为100_
     参考文章：https://github.com/bmaltais/kohya_ss/issues/52
+
+5.sd-model文件夹中的模型为 v1-5-pruned.ckpt ，由于过大将不会同步。
