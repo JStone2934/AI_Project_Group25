@@ -61,3 +61,6 @@ Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
 2.环境配置建议使用豆瓣源 -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple ipython 对此项目配置基本有效
 
 3.直接运行train.sh会出现NameError: name 'BinaryIO' is not defined的报错，无法解决。但是直接在文件/lora_train/1/lora-scripts/sd-scripts/library/huggingface_util.py", line 25中注释掉可以运行
+
+4.训练集路径应指定为放图片的文件夹所在的文件夹，且放图片的文件夹命名应该遵循一定规则。例如15张以上的图像所在的文件夹前缀为100_
+    参考文章：https://github.com/bmaltais/kohya_ss/issues/52
