@@ -2,7 +2,7 @@
 # LoRA train script by @Akegarasu
 
 # Train data path | 设置训练用模型、图片
-pretrained_model="./sd-models/model.ckpt" # base model path | 底模路径
+pretrained_model="./sd-models/chilloutmix_NiPrunedFp32Fix.safetensors" # base model path | 底模路径
 train_data_dir="./train"              # train dataset path | 训练数据集路径
 reg_data_dir=""                           # directory for regularization images | 正则化数据集路径，默认不使用正则化图像。
 
@@ -33,7 +33,7 @@ lr_warmup_steps=0                   # warmup steps | 仅在 lr_scheduler 为 con
 lr_restart_cycles=1                 # cosine_with_restarts restart cycles | 余弦退火重启次数，仅在 lr_scheduler 为 cosine_with_restarts 时起效。
 
 # Output settings | 输出设置
-output_name="aki"           # output model name | 模型保存名称
+output_name="LiuDehua"           # output model name | 模型保存名称
 save_model_as="safetensors" # model save ext | 模型保存格式 ckpt, pt, safetensors
 
 # 其他设置
