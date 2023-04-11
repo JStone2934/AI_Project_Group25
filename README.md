@@ -70,3 +70,5 @@ Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
 6.v1-5-pruned.ckpt换为chilloutmix
 
 7.训练集需要进行预处理，且图片长宽需为64倍数。训练集准备详见：https://syaofox.github.io/p/%E6%83%B3%E6%8B%A5%E6%9C%89%E4%B8%80%E4%B8%AA%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%E7%9A%84ai%E4%BA%BA%E7%89%A9lora%E7%82%BC%E4%B8%B9%E8%AE%AD%E7%BB%83%E6%A8%A1%E5%9E%8B%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/
+
+8.环境的搭建【必须】要在python>3.9的环境下进行，否则pytorch和xformers都无法正常使用，即使运行成功也会导致显存异常。可以在conda环境中使用install脚本，这会形成一个conda和venv嵌套的环境，这是正常现象。
