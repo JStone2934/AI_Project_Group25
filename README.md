@@ -54,7 +54,7 @@ Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
 
 
 
-情况记录：
+25组配置情况记录：
 
 1.Linux环境直接使用install.sh 脚本容易出现包括git子目录无法克隆等问题，建议手动执行并排除
 
